@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const ServerController = require('../controllers/ServerController')
 
-router.get('/cinta', ServerController.asrul)
+router.get('/home', ServerController.home)
 
 module.exports = router
