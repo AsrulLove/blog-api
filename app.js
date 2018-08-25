@@ -1,9 +1,11 @@
 const express = require('express')
 const app = express()
 const UserRoute = require('./routes/UserRoute')
+const ServerRoute = require('./routes/ServerRoute')
 
 app.use('/api', UserRoute) 
 //   url : localhost:3000/api/hello
+app.use('/asrul',ServerRoute)
 
 app.get('/', function(req, res){
     res.send('Hello Anis')
