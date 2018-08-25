@@ -1,0 +1,19 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "Belajar buat api dengan express dan mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsrulLove/blog-api.git"
+  },
+  "author": "Anis Fikriyyah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsrulLove/blog-api/issues"
+  },
+  "homepage": "https://github.com/AsrulLove/blog-api#readme"
+}
